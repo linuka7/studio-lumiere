@@ -1,0 +1,17 @@
+/* Arrow-only polish. No layout changes. */
+.story-card__arrow {
+  font-size: 0;
+}
+
+.story-card__arrow::before {
+  content: "→";
+  font-size: .82rem;
+  line-height: 1;
+}
+
+@media (hover: none) {
+  .story-card:hover .story-card__arrow {
+    background: transparent;
+    color: inherit;
+  }
+}
