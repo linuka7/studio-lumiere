@@ -1,0 +1,54 @@
+.site-inline-icon {
+  width: 1em;
+  height: 1em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  vertical-align: -0.12em;
+  margin-left: .28em;
+  color: currentColor;
+}
+
+.site-inline-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.site-inline-icon--play {
+  margin-left: 0;
+}
+
+.site-inline-icon--play svg {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+
+.story-card__arrow .site-inline-icon {
+  width: .82rem;
+  height: .82rem;
+  margin-left: 0;
+}
+
+.film-play .site-inline-icon {
+  width: .78rem;
+  height: .78rem;
+  margin-left: 0;
+}
+
+.footer-socials .site-inline-icon,
+.footer-thumb .site-inline-icon,
+.ark-credit .site-inline-icon,
+.inner-footer__credit .site-inline-icon,
+.story-footer__ark .site-inline-icon {
+  width: .88em;
+  height: .88em;
+  margin-left: .32em;
+}
