@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles.css";
-import "./mobile-fixes.css";
+import "./arrow-fixes.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
