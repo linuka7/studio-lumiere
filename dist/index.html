@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#080909" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Editorial wedding photography and cinematic films from Colombo, Ceylon to destinations worldwide."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Studio Lumière — Wedding Photography & Films" />
+    <meta
+      property="og:description"
+      content="Editorial wedding photography and cinematic films from Colombo, Ceylon to destinations worldwide."
+    />
+    <meta property="og:image" content="/og-cover.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Studio Lumière — Wedding Photography & Films" />
+    <meta
+      name="twitter:description"
+      content="Editorial wedding photography and cinematic films from Colombo to destinations worldwide."
+    />
+    <meta name="twitter:image" content="/og-cover.jpg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Libre+Caslon+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="/assets/hero-BtluKLrk.jpeg" fetchpriority="high" />
+
+    <title>Studio Lumière — Wedding Photography & Films</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #080909;
+      }
+
+      #boot-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 20000;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 50% 44%, rgba(120,83,55,.12), transparent 30%),
+          #080909;
+        color: #f7f2e9;
+        font-family: Georgia, serif;
+      }
+
+      #boot-loader__brand {
+        display: grid;
+        justify-items: center;
+        line-height: 1;
+        opacity: 0;
+        transform: translateY(10px);
+        animation: bootIn .55s ease forwards;
+      }
+
+      #boot-loader__brand small {
+        margin-bottom: .35rem;
+        font: 500 7px/1 Arial, sans-serif;
+        letter-spacing: .42em;
+      }
+
+      #boot-loader__brand strong {
+        font-size: clamp(2.4rem, 5vw, 4.8rem);
+        font-weight: 400;
+        letter-spacing: .14em;
+      }
+
+      @keyframes bootIn {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BxYSXYwO.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DC4N3Yhm.css">
+  </head>
+
+  <body>
+    <div id="boot-loader" aria-hidden="true">
+      <div id="boot-loader__brand">
+        <small>STUDIO</small>
+        <strong>LUMIÈRE</strong>
+      </div>
+    </div>
+
+    <form name="wedding-inquiry" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="wedding-inquiry" />
+      <input name="names" />
+      <input name="email" type="email" />
+      <input name="wedding-date" />
+      <input name="location" />
+      <textarea name="celebration"></textarea>
+    </form>
+
+    <div id="root"></div>
+
+  </body>
+</html>

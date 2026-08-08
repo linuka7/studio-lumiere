@@ -1,0 +1,15 @@
+{
+  "name": "Studio Lumi\u00e8re",
+  "short_name": "Lumi\u00e8re",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080909",
+  "theme_color": "#080909",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
