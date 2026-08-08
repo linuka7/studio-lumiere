@@ -1,0 +1,45 @@
+/* Final mobile polish — keep one complete story card visible at a time. */
+@media (max-width: 760px) {
+  .stories-home,
+  .stories-home__grid {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .stories-home__grid {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .stories-home__grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .story-card,
+  .story-card:last-child {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    grid-column: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .story-card__image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+  }
+
+  .story-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
